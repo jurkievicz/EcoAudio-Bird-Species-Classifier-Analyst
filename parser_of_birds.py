@@ -48,12 +48,13 @@ def get_all_xeno_canto_recordings(search_params, api_key):
     return all_recordings
 
 
-MY_API_KEY = "*"
+MY_API_KEY = "9225d4f13ebfac3ac6e527d58798c6b7c283f90a"
 
 my_query = {
     "grp": "birds",
     "cnt": "Poland",
-    "q": "A"
+    "q": "A",
+    "len": ">10"
 }
 
 all_results = get_all_xeno_canto_recordings(my_query, MY_API_KEY)
