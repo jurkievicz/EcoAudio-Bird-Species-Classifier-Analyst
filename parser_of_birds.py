@@ -48,7 +48,7 @@ def get_all_xeno_canto_recordings(search_params, api_key):
     return all_recordings
 
 
-MY_API_KEY = "9225d4f13ebfac3ac6e527d58798c6b7c283f90a"
+MY_API_KEY = "*"
 
 my_query = {
     "grp": "birds",
